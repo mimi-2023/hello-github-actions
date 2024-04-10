@@ -8,7 +8,7 @@ on:
 # ジョブを追加します。(最新バージョンのUbuntu上でビルドを実行します。)
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:latest
 
     steps:
       - uses: actions/checkout@v3
